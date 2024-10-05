@@ -9,7 +9,7 @@ export default function ClientProviders({ children }: { children: ReactNode }) {
     return (
         <ModalProvider>
             <ToastProvider />
-            <ThemeProvider attribute="class" defaultTheme="white" enableSystem={true}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
                 {children}
             </ThemeProvider>
         </ModalProvider>
