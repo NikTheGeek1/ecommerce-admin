@@ -1,9 +1,10 @@
 "use client";
 
+import { RevenueGraphData } from "@/actions/get-graph-revenue";
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 interface OverviewProps {
-    data: any[];
+    data: RevenueGraphData[];
 }
 
 export const Overview: React.FC<OverviewProps> = ({ data }) => {

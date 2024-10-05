@@ -24,7 +24,6 @@ import {
 import { Input } from "@/components/ui/input";
 import Logger from "@/logger/Logger";
 import { AlertModal } from "@/components/modals/alert-modal";
-import ImageUpload from "@/components/ui/image-upload";
 
 interface SizeFormProps {
     initialData: Size | null;

@@ -1,6 +1,5 @@
 import { CreditCardIcon, EuroIcon, PackageIcon } from "lucide-react";
 
-import prismadb from "@/lib/prismadb";
 import { Heading } from "@/components/ui/heading";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
